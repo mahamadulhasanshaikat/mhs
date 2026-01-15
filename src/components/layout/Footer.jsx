@@ -120,11 +120,14 @@ const Footer = () => {
                 <span className="flex items-center gap-2">
                   Built with <Heart className='w-4 h-4 text-red-600 fill-red-600 animate-pulse' /> using React & Tailwind CSS
                 </span>
-                <span className="text-primary/50 text-xs font-medium tracking-wide">
-                  Web App Version: {versionInfo.version} - {versionInfo.stage}
+                <span className=" text-white/40 text-[10px] font-medium tracking-wide">
+                  Web App Version: {versionInfo.version} ({versionInfo.stage})
                 </span>
-
+                <span className="text-white/40 text-[10px]">
+                  Release Date: {versionInfo.releaseDate}
+                </span>
               </p>
+
 
             </div>
           </div>
