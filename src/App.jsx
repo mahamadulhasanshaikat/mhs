@@ -13,7 +13,6 @@ import { Analytics } from "@vercel/analytics/react"
 const App = () => {
   return (
     <div className='min-h-screen bg-black'>
-       <Analytics />
       <Navbar />
 
       <main>
@@ -25,8 +24,11 @@ const App = () => {
         <Testimonials />
         <Contact />
       </main>
-      
+
       <Footer />
+
+      {/* Vercel Analytics */}
+      <Analytics />
 
     </div>
   )
