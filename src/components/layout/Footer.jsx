@@ -3,6 +3,7 @@ import { Github, Linkedin, Facebook, Mail, MapPin, Heart } from 'lucide-react';
 import { PERSONAL_INFO, SOCIAL_LINKS, NAV_LINKS } from '../../utils/constants';
 import { scrollToSection } from '../../hooks/useScrollSpy';
 import FadeIn from '../animations/FadeIn';
+import { appVersion } from '../../data/app_version';
 
 const Footer = () => {
 
@@ -11,6 +12,7 @@ const Footer = () => {
     linkedin: Linkedin,
     facebook: Facebook
   };
+  const versionInfo = appVersion[0];
 
   return (
     <footer className=' relative bg-black overflow-hidden border-t border-white/10'>
@@ -44,7 +46,7 @@ const Footer = () => {
                   </span>
                 </a>
 
-                <div className=" group flex items-center gap-3 p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-primary/30 transition-all duration-300">
+                <div className=" group flex items-center gap-3 p-3 bg-white/5 border border-white/10 rounded-xl transition-all duration-300">
                   <div className="p-2 bg-primary/10 rounded-lg">
                     <MapPin className='w-4 h-4 text-primary' />
                   </div>
@@ -114,9 +116,16 @@ const Footer = () => {
               <p className="text-white/50 text-sm">
                 {new Date().getFullYear()} {PERSONAL_INFO.footag}. All &copy;rights reserved.
               </p>
-              <p className=" flex items-center gap-2 text-white/50">
-                Built with <Heart className='w-4 h-4 text-red-600 fill-red-600 animate-pulse' /> using React & Tailwind CSS
+              <p className="flex flex-col items-start gap-1 text-white/50 text-sm">
+                <span className="flex items-center gap-2">
+                  Built with <Heart className='w-4 h-4 text-red-600 fill-red-600 animate-pulse' /> using React & Tailwind CSS
+                </span>
+                <span className="text-primary/50 text-xs font-medium tracking-wide">
+                  Web App Version: {versionInfo.version} - {versionInfo.stage}
+                </span>
+
               </p>
+
             </div>
           </div>
         </FadeIn>
