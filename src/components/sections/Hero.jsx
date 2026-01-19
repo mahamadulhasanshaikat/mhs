@@ -46,7 +46,7 @@ const Hero = () => {
                 className=' inline-flex items-center gap-0 mb-12 group'
 
               >
-                <div className=' relative z-10 bg-white text-[#212121] rounded-[17px] px-6.5 py-3 text-base font-medium border border-white'>
+                <div className=' relative z-10 bg-white text-[#212121] rounded-[17px] px-6.5 py-3 text-base font-medium border border-white  hover:bg-white/90'>
                   Get in Touch
                 </div>
               </button>
