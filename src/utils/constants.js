@@ -24,7 +24,7 @@ export const STATS = [
     { label: 'Years Experience', value: '01+' },
     { label: 'Completed Projects', value: '20+' },
     { label: 'Technologies Used', value: '08+' },
-    { label: 'Clients Satisfaction', value: '96%' }
+    //{ label: 'Clients Satisfaction', value: '96%' }
 
 ];
 
