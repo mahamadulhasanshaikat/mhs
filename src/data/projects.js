@@ -18,7 +18,7 @@ export const projects = [
         category: 'Web Apps',
         technologies: ['Html', 'CSS', 'JavaScript'],
         metrics: 'Fully responsive design',
-        demoUrl: 'https://mahamadulhasanshaikat.github.io/',
+        demoUrl: 'https://mahamadulhasanshaikat.github.io/Portfolio_web_site/',
         githubUrl: 'https://github.com/mahamadulhasanshaikat/Portfolio_web_site',
     },
     {
