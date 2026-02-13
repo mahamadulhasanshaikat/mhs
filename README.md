@@ -1,6 +1,6 @@
-# MH Shaikat Portfolio Website
+# My Website
 
-Welcome to the official portfolio website . This site showcases my projects, skills, and professional profile as a developer.
+Welcome to the official website . This site showcases my projects, skills, and professional profile as a developer.
 
 ## 🌐 Live
 You can view the live website here: [https://mhshaikat.vercel.app/](https://mhshaikat.vercel.app/)
@@ -14,7 +14,7 @@ You can view the live website here: [https://mhshaikat.vercel.app/](https://mhsh
 
 ## 🛠 Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** ReactJS
 - **Hosting:** Vercel
 - **Design:** Responsive layout, modern UI/UX
 
