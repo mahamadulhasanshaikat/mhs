@@ -10,6 +10,7 @@ import Contact from './components/sections/Contact'
 import Footer from './components/layout/Footer'
 import { Analytics } from "@vercel/analytics/react"
 import Publications from './components/sections/Publication'
+import Journey from './components/sections/Journey'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
+        <Journey />
         <Projects />
         <Publications />
         <Services />

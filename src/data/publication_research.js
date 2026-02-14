@@ -5,7 +5,7 @@ export const PUBLICATION_INFO = [
     authors: "Md. Mijanur Rahman, Sudip Sarker, Md Mahamadul Hasan Shaikat, Sourav Das, Md Rezaul Karim Khan.",
     venue: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN).",
     type: "Conference",   
-    year: "29 September 2025",
+    year: "31 July 2025",
     link: "https://ieeexplore.ieee.org/document/11172245"
   },
   // {

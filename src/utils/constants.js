@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
     location: 'Dhaka, Bangladesh.',
     tagline: 'Building scalable apps with clean code, modern UI, and intelligent solutions.',
     resume: '/resume.pdf',
-    footag: 'MHS Technologies Ltd',
+    footag: 'MHS Tech Labs',
     bio: [
         'I am a passionate Flutter and Full Stack Developer with strong experience in building modern, scalable web and mobile applications. I enjoy turning ideas into functional, well-designed digital products that focus on performance and user experience.',
         'I specialize in Flutter, React, Python and Firebase with a solid foundation in backend development and database design. My development approach emphasizes clean architecture, maintainable code, and efficient problem-solving across both frontend and backend systems.',
@@ -37,10 +37,11 @@ export const ABOUT_STATUS = [
 export const NAV_LINKS = [
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
+    { id: 'journey', label: 'Journey' },
     { id: 'projects', label: 'Projects' },
     { id: 'publications', label: 'Publications' },
     { id: 'services', label: 'Services' },
-    { id: 'contact', label: 'Contact' }
+   // { id: 'contact', label: 'Contact' }
 
 ];
 

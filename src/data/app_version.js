@@ -1,7 +1,7 @@
 export const appVersion = [
   {
-    version: "1.0.0",
+    version: "1.0.5",
     stage: "Beta",
-    releaseDate: "15.01.2026"
+    releaseDate: "15 Feb 2026"
   }
 ];

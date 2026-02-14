@@ -72,7 +72,7 @@ const Navbar = () => {
               className="px-7 py-2 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300"
             >
 
-              Hire Me
+              Contact
             </button>
           </div>
 
