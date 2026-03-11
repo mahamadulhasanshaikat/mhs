@@ -69,7 +69,7 @@ const Projects = () => {
                     <div className=" text-center mb-12">
                         <div className=" inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
                             <Briefcase className='w-4 h-4 text-primary' />
-                            <span className="text-sm text-primary font-medium">My Work</span>
+                            <span className="text-sm text-primary font-medium tracking-wide uppercase">My Work</span>
                         </div>
 
                         <h2 className="text-4xl lg:text-5xl font-normal text-white mb-4">

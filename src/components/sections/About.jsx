@@ -31,7 +31,7 @@ const About = () => {
               <div className=" inline-flex items-center gap-2.5 px-5 py-2.5 border border-primary/30 bg-primary/10 rounded-full w-fit">
                 <Code2 className='w-4 h-4 text-primary' />
                 <span className='text-sm text-primary font-medium'>
-                  Full Stack Developer
+                  Software Developer
                 </span>
                 <Sparkles className='w-4 h-4 text-primary' />
               </div>

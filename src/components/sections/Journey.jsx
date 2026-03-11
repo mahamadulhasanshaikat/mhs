@@ -9,26 +9,21 @@ const Journey = () => {
 
   return (
     <section id="journey" className="relative py-20 bg-black overflow-hidden">
-      {/* Background Grid */}
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: `
-            linear-gradient(to right, white 1px, transparent 1px),
-            linear-gradient(to bottom, white 1px, transparent 1px)
-          `,
-          backgroundSize: "30px 30px",
-        }}
-      />
 
+       {/* Animated Backgound Gradients */}
+        <div className=" absolute inset-0 overflow-hidden">
+            <div className=' absolute top-1/4 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl opacity-50' />
+            <div className='absolute bottom-1/4 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl opacity-50' />
+        </div>
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+       
         {/* Header */}
         <FadeIn delay={0}>
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full mb-6">
-              <Icons.BookOpen className="w-4 h-4 text-green-400" />
-              <span className="text-sm text-green-400 font-medium tracking-wide uppercase">
-                Professional Journey
+              <Icons.BookOpen className="w-4 h-4 text-primary" />
+              <span className="text-sm text-primary font-medium tracking-wide uppercase">
+                My Journey
               </span>
             </div>
             <h2 className="text-4xl lg:text-5xl font-normal text-white mb-4">
@@ -81,6 +76,7 @@ const Journey = () => {
               return (
                 <FadeIn key={item.id} delay={100 + index * 150}>
                   <div className="relative pl-20">
+                   
                     {/* Circle Node */}
                     <div className="absolute left-0 top-2 w-12 h-12 rounded-full bg-primary flex items-center justify-center border-4 border-black shadow-lg">
                       <IconComponent className="w-5 h-5 text-black" />

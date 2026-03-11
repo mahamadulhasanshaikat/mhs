@@ -12,31 +12,29 @@ const Publications = () => {
   const data = showAll ? PUBLICATION_INFO : visiblePublications;
 
   return (
-    <section id='publications' className='relative py-20 bg-black overflow-hidden'>
-      {/* Background grid */}
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: `
-            linear-gradient(to right, white 1px, transparent 1px),
-            linear-gradient(to bottom, white 1px, transparent 1px)
-          `,
-          backgroundSize: '30px 30px'
-        }}
-      />
+    <section id='publications' className='relative py-15 bg-black overflow-hidden'>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+       {/* Animated Backgound Gradients */}
+        <div className=" absolute inset-0 overflow-hidden">
+            <div className=' absolute top-1/4 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl opacity-50' />
+            <div className='absolute bottom-1/4 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl opacity-50' />
+        </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         {/* Header */}
-        <FadeIn delay={0}>
+        <FadeIn delay={100}>
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full mb-6">
-              <Icons.BookOpen className='w-4 h-4 text-green-400' />
-              <span className="text-sm text-green-400 font-medium tracking-wide uppercase">Publications</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
+              <Icons.BookOpen className='w-4 h-4 text-primary' />
+              <span className="text-sm text-primary font-medium tracking-wide uppercase">
+                Publications
+                </span>
             </div>
             <h2 className="text-4xl lg:text-5xl font-normal text-white mb-4">
               Publications & Research
             </h2>
-            <p className="text-lg text-white/60 max-w-xl mx-auto">
+            <p className="text-lg text-white/60 max-w-2xl mx-auto">
               Explore my contributions to knowledge and innovation.
             </p>
           </div>
@@ -54,8 +52,9 @@ const Publications = () => {
               return (
                 <FadeIn key={pub.id} delay={100 + index * 150}>
                   <div className="relative pl-20">
+                    
                     {/* Circle Node */}
-                    <div className={`absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center border-4 ${isEven ? 'bg-green-500 border-black' : 'bg-sky-500 border-black'} shadow-lg`}>
+                    <div className={`absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center border-4 ${isEven ? ' bg-primary border-black' : 'bg-sky-500 border-black'} shadow-lg`}>
                       <Icons.BookOpen className="w-5 h-5 text-black" />
                     </div>
 

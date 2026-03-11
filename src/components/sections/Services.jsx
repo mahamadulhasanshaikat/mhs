@@ -6,22 +6,13 @@ import FadeIn from '../animations/FadeIn';
 
 const Services = () => {
     return <section id='services' className=' relative py-15 bg-black overflow-hidden'>
+       
         <div className=" absolute inset-0 overflow-hidden">
             <div className=" absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 opacity-20 rounded-full blur-3xl" />
             <div className=" absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/20 opacity-20 rounded-full blur-3xl" />
             <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary/10 opacity-20 rounded-full blur-3xl" />
 
         </div>
-
-        <div className=" absolute inset-0 opacity-[0.03]"
-            style={{
-                backgroundImage: ` 
-            linear-gradient(to right, white 1px, transparent 1px),
-            linear-gradient(to bottom, white 1px, transparent 1px)
-            `,
-                backgroundSize: '30px 30px'
-            }}
-        />
 
         <div className=" relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <FadeIn delay={0}>
@@ -33,7 +24,7 @@ const Services = () => {
                     <h2 className=" text-4xl lg:text-5xl font-normal text-white mb-4 max-w-4.5xl mx-auto">
                         Built for innovation. Designed for results.
                     </h2>
-                    <p className=" text-lg text-white/60 max-w-xl mx-auto">
+                    <p className=" text-lg text-white/60 max-w-2xl mx-auto">
                         Comprehensive solutions to transfrom your ideas into exceptional digital experiences.
                     </p>
                 </div>
