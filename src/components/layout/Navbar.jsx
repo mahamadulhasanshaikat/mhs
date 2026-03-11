@@ -67,13 +67,16 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-2">
-            <button
+            {/* <button
               onClick={() => handleNavClick('contact')}
               className="px-7 py-2 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300"
             >
 
               Contact
-            </button>
+            </button> */}
+
+
+
           </div>
 
           {/* Mobile Menu Button */}

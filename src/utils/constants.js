@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
     name: 'Mahamadul Hasan Shaikat',
-    title: 'React | Flutter(Android )| Python | Ex. Research Assistant',
+    title: 'Reactjs | Nextjs | Flutter | Python | Ex. Research Assistant',
     email: 'md.shaikat95@gmail.com',
     location: 'Dhaka, Bangladesh.',
     tagline: 'Building scalable apps with clean code, modern UI, and intelligent solutions.',
