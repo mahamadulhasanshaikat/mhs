@@ -2,6 +2,7 @@ import React from 'react';
 import { skills } from '../../data/skills';
 import * as Icons from 'lucide-react';
 import FadeIn from '../animations/FadeIn';
+import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
 
@@ -12,6 +13,7 @@ const Skills = () => {
             skills.find(s => s.name === 'Tailwind CSS'),
             skills.find(s => s.name === 'JavaScript'),
             skills.find(s => s.name === 'React.js'),
+            skills.find(s => s.name === 'Next.js'),
             skills.find(s => s.name === 'Flutter'),
         ].filter(Boolean),
         'Backend & APIs': [

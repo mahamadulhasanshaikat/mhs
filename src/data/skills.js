@@ -1,29 +1,30 @@
+
 export const skills = [
     {
         id: 1,
         name: 'React.js',
-        icon: 'Code2',
+        icon: 'Layers',
         level: 'Intermediate',
         experiance: '1+ years'
     },
     {
         id: 2,
         name: 'Flutter',
-        icon: 'Smartphone',
+        icon: 'Layers',
         level: 'Advanced',
         experiance: '2+ years'
     },
     {
         id: 3,
         name: 'JavaScript',
-        icon: 'FileCode',
+        icon: 'Layers',
         level: 'Intermediate',
         experiance: '1+ years'
     },
     {
         id: 4,
         name: 'Tailwind CSS',
-        icon: 'Palette',
+        icon: 'Layers',
         level: 'Intermediate',
         experiance: '1+ years'
     },
@@ -80,7 +81,7 @@ export const skills = [
     {
         id: 12,
         name: 'Html',
-        icon: 'Html5',
+        icon: 'Layers',
         level: 'Advanced',
         experiance: '3+ years'
     },
@@ -97,5 +98,12 @@ export const skills = [
         icon: 'Code',
         level: 'Expert',
         experiance: '4+ years'
+    },
+    {
+    id: 14,
+    name: 'Next.js',
+    icon: 'Layers',
+    level: 'Basic',
+    experience: '0.2+ years'
     }
 ];

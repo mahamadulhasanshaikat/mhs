@@ -7,9 +7,9 @@ export const PERSONAL_INFO = {
     resume: '/resume.pdf',
     footag: 'MHS Tech Labs',
     bio: [
-        'I am a passionate Flutter and Full Stack Developer with strong experience in building modern, scalable web and mobile applications. I enjoy turning ideas into functional, well-designed digital products that focus on performance and user experience.',
-        'I specialize in Flutter, React, Python and Firebase with a solid foundation in backend development and database design. My development approach emphasizes clean architecture, maintainable code, and efficient problem-solving across both frontend and backend systems.',
-        'Alongside development, I have hands-on experience in machine learning, data analysis, and research-based projects. I am continuously learning new technologies and enjoy working on real-world problems that create meaningful and impactful digital solutions.'
+        'I am a passionate Web and Mobile Application Developer with strong experience in designing and building modern, scalable applications. I enjoy transforming innovative ideas into functional, well designed digital products that prioritize performance, usability, and an excellent user experience.',
+        'My technical expertise includes Flutter, ReactJS, NextJS, Python, Postgresql and Firebase, supported by a solid foundation in backend development and database design. I follow best practices such as clean architecture, maintainable code structure, and efficient problem solving to develop reliable and high quality applications across both frontend and backend environments.',
+        'In addition to software development, I have practical experience in machine learning, data analysis, and research based projects. I am a continuous learner who actively explores emerging technologies and enjoys working on real world challenges to build meaningful and impactful digital solutions.'
     ]
 };
 
