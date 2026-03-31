@@ -22,16 +22,16 @@ export const SOCIAL_LINKS = {
 
 export const STATS = [
     { label: 'Years Experience', value: '01+' },
-    { label: 'Completed Projects', value: '20+' },
+    { label: 'Completed Projects', value: '10+' },
     { label: 'Technologies Used', value: '08+' },
     //{ label: 'Clients Satisfaction', value: '96%' }
 
 ];
 
 export const ABOUT_STATUS = [
-    { label: 'Happy Clients', value: '02+' },
-    { label: 'Code Commits', value: '29+' },
-    { label: 'GitHub Stars', value: '40+' },
+    { label: 'Happy Clients', value: '00+' },
+    { label: 'Code Commits', value: '400+' },
+    { label: 'GitHub Stars', value: '70+' },
 ];
 
 export const NAV_LINKS = [
