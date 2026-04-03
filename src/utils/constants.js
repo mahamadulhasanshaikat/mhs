@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
     name: 'Mahamadul Hasan Shaikat',
-    title: 'Reactjs | Nextjs | Flutter | Python | Ex. Research Assistant',
+    title: 'Flutter | React.js | Next.js | Python | Ex. Research Assistant',
     email: 'md.shaikat95@gmail.com',
     location: 'Dhaka, Bangladesh.',
     tagline: 'Building scalable apps with clean code, modern UI, and intelligent solutions.',
@@ -41,7 +41,7 @@ export const NAV_LINKS = [
     { id: 'projects', label: 'Projects' },
     { id: 'publications', label: 'Publications' },
     { id: 'services', label: 'Services' },
-   // { id: 'contact', label: 'Contact' }
+    // { id: 'contact', label: 'Contact' }
 
 ];
 

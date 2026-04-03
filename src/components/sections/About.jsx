@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Download, Code2, Sparkles, icons } from 'lucide-react';
-import { SiReact, SiFlutter, SiDjango, SiPython, SiJavascript, SiTailwindcss, SiHtml5, SiFirebase, SiPostgresql } from 'react-icons/si';
+import { Download, Code2, Sparkles } from 'lucide-react';
+import { SiReact, SiFlutter, SiNextdotjs, SiPython, SiTypescript, SiTailwindcss, SiHtml5, SiMongodb, SiPostgresql } from 'react-icons/si';
 import { PERSONAL_INFO, ABOUT_STATUS } from '../../utils/constants';
 import FadeIn from '../animations/FadeIn';
 import RedialGradientBackground from '../backgrounds/RedialGradientBackground';
@@ -10,12 +9,16 @@ const About = () => {
 
   // Skills
   const skills = [
-    { name: 'Html', icon: SiHtml5, color: '#339933' },
-    { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#47A248' },
-    { name: 'JavaScript', icon: SiJavascript, color: '#06B6D4' },
-    { name: 'React.js', icon: SiReact, color: '#61DAFB' },
     { name: 'Flutter', icon: SiFlutter, color: '#000000' },
     { name: 'Python', icon: SiPython, color: '#3178C6' },
+    //{ name: 'Html', icon: SiHtml5, color: '#339933' },
+    { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#47A248' },
+    // { name: 'JavaScript', icon: SiJavascript, color: '#06B6D4' },
+    { name: 'React.js', icon: SiReact, color: '#61DAFB' },
+    { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
+    { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+    { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
+    { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' }
   ];
 
   return <section id='about' className=' relative py-5 bg-black overflow-hidden'>

@@ -1,8 +1,6 @@
-import React from 'react';
 import { skills } from '../../data/skills';
 import * as Icons from 'lucide-react';
 import FadeIn from '../animations/FadeIn';
-import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
 
@@ -11,13 +9,14 @@ const Skills = () => {
         'Frontend Development': [
             skills.find(s => s.name === 'Html'),
             skills.find(s => s.name === 'Tailwind CSS'),
-            skills.find(s => s.name === 'JavaScript'),
+            skills.find(s => s.name === 'Flutter'),
             skills.find(s => s.name === 'React.js'),
             skills.find(s => s.name === 'Next.js'),
-            skills.find(s => s.name === 'Flutter'),
+            skills.find(s => s.name === 'JavaScript'),
         ].filter(Boolean),
         'Backend & APIs': [
             skills.find(s => s.name === 'Python'),
+            skills.find(s=> s.name === 'TypeScript'),
             skills.find(s => s.name === 'REST APIs'),
             skills.find(s => s.name === 'FireBase'),
             skills.find(s => s.name === 'PostgreSQL'),
@@ -26,7 +25,7 @@ const Skills = () => {
             skills.find(s => s.name === 'Git & GitHub'),
             skills.find(s => s.name === 'Responsive Design'),
             skills.find(s => s.name === 'Figma'),
-            skills.find(s => s.name === 'Vite'),
+          //  skills.find(s => s.name === 'Vite'),
             skills.find(s => s.name === 'VS Code')
         ].filter(Boolean),
 
@@ -69,7 +68,7 @@ const Skills = () => {
                         <Icons.Sparkles className=' w-4 h-4 text-primary' />
                         <span className="text-sm text-primary font-medium tracking-wide uppercase">
                             My Expertise
-                            </span>
+                        </span>
                     </div>
                     <h2 className="text-4xl lg:text-5xl font-normal text-white mb-4">
                         Skills & Technologies
@@ -108,7 +107,7 @@ const Skills = () => {
                                                         </div>
 
                                                         <div className="text-sm text-white/50">
-                                                            {skill.experiance}
+                                                            {skill.experience}
                                                         </div>
 
                                                     </div>
