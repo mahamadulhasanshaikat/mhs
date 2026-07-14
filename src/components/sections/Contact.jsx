@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Mail, MapPin, Github, Linkedin, Facebook, Send, MessageSquare, Type } from 'lucide-react';
 import { PERSONAL_INFO, SOCIAL_LINKS } from '../../utils/constants';
 import FadeIn from '../animations/FadeIn';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
 
@@ -20,24 +21,64 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.message) {
-      setStatus({ type: 'error', message: 'Please fill in all fields' });
+      setStatus({
+        type: "error",
+        message: "Please fill in all fields",
+      });
       return;
     }
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     if (!emailRegex.test(formData.email)) {
-      setStatus({ type: 'error', message: 'Please enter a valid email.' });
+      setStatus({
+        type: "error",
+        message: "Please enter a valid email.",
+      });
       return;
     }
 
-    setStatus({ type: 'success', message: 'Message sent successfully! I\'ll get back to your soon.' });
-    setFormData({ name: '', email: '', message: '' });
+    try {
+      await emailjs.send(
+        "service_qj2p0il",
+        "template_ug2umgh",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        "Lbm8Y52O5Qqo8KBQt"
+      );
 
-    setTimeout(() => setStatus({ type: '', message: '' }), 5000);
+      setStatus({
+        type: "success",
+        message: "Message sent successfully!",
+      });
 
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      setStatus({
+        type: "error",
+        message: "Failed to send message. Please try again.",
+      });
+
+      console.error(error);
+    }
+
+    setTimeout(() => {
+      setStatus({
+        type: "",
+        message: "",
+      });
+    }, 5000);
   };
 
   const socialIcons = {
@@ -155,7 +196,7 @@ const Contact = () => {
                   I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
                 </p>
               </div>
-             
+
               <div className=" space-y-4">
                 <div className=" group relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300">
                   <div className=" flex items-start gap-4">
@@ -165,8 +206,9 @@ const Contact = () => {
 
                     <div className=" flex-1">
                       <p className=" text-sm text-white/60 mb-1">Email</p>
+
                       <a
-                        href={`milto:${PERSONAL_INFO.email}`}
+                        href={`mailto:${PERSONAL_INFO.email}`}
                         className=" text-white hover:text-[#A8FF8D] transition-colors font-medium"
                       >
                         {PERSONAL_INFO.email}
