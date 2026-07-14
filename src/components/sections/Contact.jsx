@@ -164,7 +164,7 @@ const Contact = () => {
                   type='submit'
                   className='w-full px-6 py-3 bg-linear-to-r from-primary/10 to-primary text-white font-medium rounded-xl hover: shadow-2xl hover:shadow-primary/30 transition-all duration-300 flex items-center justify-center gap-2 group'
                 >
-                  <span>Send Message (Not Avalible This Services)</span>
+                  <span>Send Message</span>
                   <Send className='w-5 h-5 group-hover:translate-x-1 transition-transform duration-300' />
 
                 </button>
