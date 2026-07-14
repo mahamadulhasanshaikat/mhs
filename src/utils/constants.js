@@ -1,14 +1,14 @@
 export const PERSONAL_INFO = {
     name: 'Mahamadul Hasan Shaikat',
-    title: 'Flutter | React.js | Next.js | Python | Ex. Research Assistant',
-    email: 'md.shaikat95@gmail.com',
-    location: 'Dhaka, Bangladesh.',
+    title: 'Flutter | Next.js | Tailwind CSS | Dart | Python | MongoBD | Firebase| Ex. Research Assistant',
+    email: 'md.shaikat.dev@gmail.com',
+    location: 'Bangladesh.',
     tagline: 'Building scalable apps with clean code, modern UI, and intelligent solutions.',
     resume: '/resume.pdf',
     footag: 'MHS Tech Labs',
     bio: [
         'I am a passionate Web and Mobile Application Developer with strong experience in designing and building modern, scalable applications. I enjoy transforming innovative ideas into functional, well designed digital products that prioritize performance, usability, and an excellent user experience.',
-        'My technical expertise includes Flutter, ReactJS, NextJS, Python, Postgresql and Firebase, supported by a solid foundation in backend development and database design. I follow best practices such as clean architecture, maintainable code structure, and efficient problem solving to develop reliable and high quality applications across both frontend and backend environments.',
+        'My technical expertise includes Flutter, NextJS, Dart, Python, MongoBD and Firebase, supported by a solid foundation in backend development and database design. I follow best practices such as clean architecture, maintainable code structure, and efficient problem solving to develop reliable and high quality applications across both frontend and backend environments.',
         'In addition to software development, I have practical experience in machine learning, data analysis, and research based projects. I am a continuous learner who actively explores emerging technologies and enjoys working on real world challenges to build meaningful and impactful digital solutions.'
     ]
 };
@@ -29,7 +29,7 @@ export const STATS = [
 ];
 
 export const ABOUT_STATUS = [
-    { label: 'Happy Clients', value: '00+' },
+    //{ label: 'Happy Clients', value: '00+' },
     { label: 'Code Commits', value: '400+' },
     { label: 'GitHub Stars', value: '70+' },
 ];

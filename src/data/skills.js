@@ -2,8 +2,8 @@
 export const skills = [
     {
         id: 1,
-        name: 'React.js',
-        icon: 'Layers',
+        name: 'Firebase',
+        icon: 'Cloud',
         level: 'Intermediate',
         experience: '1+ years'
     },
@@ -11,22 +11,22 @@ export const skills = [
         id: 2,
         name: 'Flutter',
         icon: 'Layers',
-        level: 'Intermediate',
-        experience: '1.3+ years'
+        level: 'Advanced',
+        experience: '1.5+ years'
     },
     {
         id: 3,
         name: 'JavaScript',
         icon: 'Layers',
-        level: 'Intermediate',
-        experience: '1+ years'
+        level: 'Basic',
+        experience: '0.5+ years'
     },
     {
         id: 4,
         name: 'Tailwind CSS',
         icon: 'Layers',
-        level: 'Intermediate',
-        experience: '1+ years'
+        level: 'Basic',
+        experience: '0.5+ years'
     },
     {
         id: 5,
@@ -60,8 +60,8 @@ export const skills = [
         id: 9,
         name: 'REST APIs',
         icon: 'Globe',
-        level: 'Basic',
-        experience: '0.5+ years'
+        level: 'Intermediate',
+        experience: '1+ years'
     },
 
     {
@@ -69,26 +69,26 @@ export const skills = [
         name: 'Git & GitHub',
         icon: 'GitBranch',
         level: 'Advanced',
-        experience: '4+ years'
+        experience: '1.5+ years'
     },
     {
         id: 11,
         name: 'Responsive Design',
         icon: 'Palette',
-        level: 'Intermediate',
-        experience: '1+ years'
+        level: 'Advanced',
+        experience: '1.5+ years'
     },
     {
         id: 12,
         name: 'Html',
         icon: 'Layers',
         level: 'Advanced',
-        experience: '3+ years'
+        experience: '2+ years'
     },
     {
         id: 13,
-        name: 'Vite',
-        icon: 'Zap',
+        name: 'MongoDB',
+        icon: 'Database',
         level: 'Intermediate',
         experience: '1+ years'
     },
@@ -96,22 +96,52 @@ export const skills = [
         id: 14,
         name: 'VS Code',
         icon: 'Code',
-        level: 'Expert',
-        experience: '4+ years'
+        level: 'Advanced',
+        experience: '3+ years'
     },
     {
         id: 15,
         name: 'Next.js',
         icon: 'Layers',
         level: 'Basic',
-        experience: '0.3+ months'
+        experience: '0.5+ months'
     },
     {
-    id: 16,
-    name: 'TypeScript',
-    icon: 'FileCode',
-    level: 'Basic',
-    experience: '0.3+ months'
-}
-    
+        id: 16,
+        name: 'TypeScript',
+        icon: 'FileCode',
+        level: 'Basic',
+        experience: '0.5+ months'
+    },
+
+    {
+        id: 17,
+        name: 'Dart',
+        icon: 'Code2',
+        level: 'Intermediate',
+        experience: '1.5+ years'
+    },
+    {
+        id: 18,
+        name: 'GetX',
+        icon: 'Layers3',
+        level: 'Intermediate',
+        experience: '1+ years'
+    },
+    {
+        id: 19,
+        name: 'Provider',
+        icon: 'Package',
+        level: 'Intermediate',
+        experience: '1+ years'
+    },
+    {
+        id: 20,
+        name: 'SQLite',
+        icon: 'Database',
+        level: 'Intermediate',
+        experience: '1+ years'
+    },
+
+
 ];

@@ -4,31 +4,66 @@ import FadeIn from '../animations/FadeIn';
 
 const Skills = () => {
 
-    // Catagorize Skills
+    // // Catagorize Skills
+    // const skillsCategories = {
+    //     'Frontend Development': [
+    //         skills.find(s => s.name === 'Html'),
+    //         skills.find(s => s.name === 'Tailwind CSS'),
+    //         skills.find(s => s.name === 'Flutter'),
+    //         skills.find(s => s.name === 'React.js'),
+    //         skills.find(s => s.name === 'Next.js'),
+    //         skills.find(s => s.name === 'JavaScript'),
+    //     ].filter(Boolean),
+    //     'Backend & APIs': [
+    //         skills.find(s => s.name === 'Python'),
+    //         skills.find(s=> s.name === 'TypeScript'),
+    //         skills.find(s => s.name === 'REST APIs'),
+    //         skills.find(s => s.name === 'FireBase'),
+    //         skills.find(s => s.name === 'PostgreSQL'),
+    //     ].filter(Boolean),
+    //     'Tools & Others': [
+    //         skills.find(s => s.name === 'Git & GitHub'),
+    //         skills.find(s => s.name === 'Responsive Design'),
+    //         skills.find(s => s.name === 'Figma'),
+    //       //  skills.find(s => s.name === 'Vite'),
+    //         skills.find(s => s.name === 'VS Code')
+    //     ].filter(Boolean),
+
+    // };
+
+
     const skillsCategories = {
-        'Frontend Development': [
-            skills.find(s => s.name === 'Html'),
-            skills.find(s => s.name === 'Tailwind CSS'),
+        'Mobile Development': [
             skills.find(s => s.name === 'Flutter'),
-            skills.find(s => s.name === 'React.js'),
-            skills.find(s => s.name === 'Next.js'),
-            skills.find(s => s.name === 'JavaScript'),
-        ].filter(Boolean),
-        'Backend & APIs': [
-            skills.find(s => s.name === 'Python'),
-            skills.find(s=> s.name === 'TypeScript'),
-            skills.find(s => s.name === 'REST APIs'),
-            skills.find(s => s.name === 'FireBase'),
-            skills.find(s => s.name === 'PostgreSQL'),
-        ].filter(Boolean),
-        'Tools & Others': [
-            skills.find(s => s.name === 'Git & GitHub'),
-            skills.find(s => s.name === 'Responsive Design'),
-            skills.find(s => s.name === 'Figma'),
-          //  skills.find(s => s.name === 'Vite'),
-            skills.find(s => s.name === 'VS Code')
+            skills.find(s => s.name === 'Dart'),
+            skills.find(s => s.name === 'GetX'),
+            skills.find(s => s.name === 'Provider'),
+
         ].filter(Boolean),
 
+        'Web Development': [
+            skills.find(s => s.name === 'Next.js'),
+            skills.find(s => s.name === 'Html'),
+            skills.find(s => s.name === 'Tailwind CSS'),
+            skills.find(s => s.name === 'JavaScript'),
+            skills.find(s => s.name === 'TypeScript'),
+        ].filter(Boolean),
+
+        'Backend & APIs': [
+            skills.find(s => s.name === 'Python'),
+            skills.find(s => s.name === 'REST APIs'),
+            // skills.find(s => s.name === 'PostgreSQL'),
+            skills.find(s => s.name === 'MongoDB'),
+            skills.find(s => s.name === 'Firebase'),
+            skills.find(s => s.name == 'SQLite'),
+        ].filter(Boolean),
+
+        'Tools & Others': [
+            skills.find(s => s.name === 'Git & GitHub'),
+            skills.find(s => s.name === 'VS Code'),
+            skills.find(s => s.name === 'Figma'),
+            skills.find(s => s.name === 'Responsive Design'),
+        ].filter(Boolean),
     };
 
     // Get proficiency percentange
@@ -79,8 +114,10 @@ const Skills = () => {
                 </div>
             </FadeIn>
 
+
+
             {/* Skills Categories */}
-            <div className=" grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {Object.entries(skillsCategories).map(([category, categorySkills], categoryIndex) => (
                     <FadeIn key={category} delay={categoryIndex * 100}>
                         <div className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300 group">

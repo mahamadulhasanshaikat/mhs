@@ -1,5 +1,5 @@
 import { ChevronDown, Star } from 'lucide-react';
-import { SiReact, SiTailwindcss, SiFlutter, SiPython, SiNextdotjs, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { SiReact, SiTailwindcss, SiFlutter, SiPython, SiDart, SiNextdotjs, SiPostgresql, SiMongodb, SiFirebase } from 'react-icons/si';
 import { PERSONAL_INFO, STATS } from '../../utils/constants';
 import { scrollToSection } from '../../hooks/useScrollSpy';
 import FadeIn from '../animations/FadeIn';
@@ -35,7 +35,7 @@ const Hero = () => {
 
             <FadeIn delay={200}>
               <p className='text-lg text-white/70 max-w-150 mb-8'>
-                I love turning ideas into real, working applications. I build web and mobile projects using React and Flutter. My focus is on creating smooth, scalable, and user friendly experiences. I enjoy solving challenging problems and bringing creative solutions to life.
+                I love turning ideas into real, working applications. I build web and mobile projects using Flutter and Next.js. My focus is on creating smooth, scalable, and user friendly experiences. I enjoy solving challenging problems and bringing creative solutions to life.
               </p>
             </FadeIn>
 
@@ -94,10 +94,10 @@ const Hero = () => {
 
                       </div>
 
-                      <div className=" w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
+                      {/* <div className=" w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
                         <SiReact className=' w-full h-full text-primary' />
 
-                      </div>
+                      </div> */}
 
                       <div className="w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
                         <SiNextdotjs className="w-full h-full text-primary" />
@@ -112,12 +112,21 @@ const Hero = () => {
                         <SiPython className='w-full h-full text-primary' />
 
                       </div>
+
                       <div className="w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
-                        <SiPostgresql className="w-full h-full text-primary" />
+                        <SiDart className="w-full h-full text-primary" />
                       </div>
+
+                      {/* <div className="w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
+                        <SiPostgresql className="w-full h-full text-primary" />
+                      </div> */}
 
                       <div className="w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
                         <SiMongodb className="w-full h-full text-primary" />
+                      </div>
+
+                      <div className="w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300">
+                        <SiFirebase className="w-full h-full text-primary" />
                       </div>
 
                     </div>

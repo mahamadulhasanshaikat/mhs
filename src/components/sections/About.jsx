@@ -1,5 +1,5 @@
 import { Download, Code2, Sparkles } from 'lucide-react';
-import { SiReact, SiFlutter, SiNextdotjs, SiPython, SiTypescript, SiTailwindcss, SiHtml5, SiMongodb, SiPostgresql } from 'react-icons/si';
+import { SiReact, SiFlutter, SiNextdotjs, SiPython, SiTypescript, SiDart, SiTailwindcss, SiHtml5, SiMongodb, SiFirebase, SiPostgresql } from 'react-icons/si';
 import { PERSONAL_INFO, ABOUT_STATUS } from '../../utils/constants';
 import FadeIn from '../animations/FadeIn';
 import RedialGradientBackground from '../backgrounds/RedialGradientBackground';
@@ -9,24 +9,28 @@ const About = () => {
 
   // Skills
   const skills = [
-    { name: 'Flutter', icon: SiFlutter, color: '#000000' },
     { name: 'Python', icon: SiPython, color: '#3178C6' },
-    //{ name: 'Html', icon: SiHtml5, color: '#339933' },
-    { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#47A248' },
-    // { name: 'JavaScript', icon: SiJavascript, color: '#06B6D4' },
-    { name: 'React.js', icon: SiReact, color: '#61DAFB' },
+     { name: 'Dart', icon: SiDart, color: '#0175C2' },
+    { name: 'Flutter', icon: SiFlutter, color: '#000000' },
     { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
-    { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+    // { name: 'Html', icon: SiHtml5, color: '#339933' },
+    //{ name: 'Tailwind CSS', icon: SiTailwindcss, color: '#47A248' },
+    // { name: 'JavaScript', icon: SiJavascript, color: '#06B6D4' },
+    //{ name: 'React.js', icon: SiReact, color: '#61DAFB' },
     { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
-    { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' }
+     { name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
+    // { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+    // { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' }
   ];
 
   return <section id='about' className=' relative py-5 bg-black overflow-hidden'>
     <RedialGradientBackground variant='about' />
 
     <div className=" relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
       {/* Main Graid */}
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+
         {/* Left Column - content */}
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-8">
@@ -43,7 +47,7 @@ const About = () => {
 
             <FadeIn delay={100}>
               <h2 className="text-4xl lg:text-5xl font-normal text-white leading-tight">
-                Crafting Digital Experiences That Matter
+                Building Modern Web & Mobile Applications
               </h2>
             </FadeIn>
 
