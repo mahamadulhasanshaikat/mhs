@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
     name: 'Mahamadul Hasan Shaikat',
-    title: 'Flutter | Next.js | Tailwind CSS | Dart | Python | MongoBD | Firebase| Ex. Research Assistant',
+    title: 'Flutter | Next.js | Dart | Python | MongoBD | Firebase| Ex. Research Assistant',
     email: 'md.shaikat.dev@gmail.com',
     location: 'Bangladesh.',
     tagline: 'Building scalable apps with clean code, modern UI, and intelligent solutions.',
