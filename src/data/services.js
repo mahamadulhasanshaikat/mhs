@@ -1,38 +1,44 @@
 export const services = [
     {
         id: 1,
-        icon: 'Layout',
-        title: 'Frontend Development',
-        description: 'Building responsive, modern, and user-friendly interfaces using React, Flutter, and clean UI principles.'
+        icon: 'Smartphone',
+        title: 'Mobile App Development',
+        description:
+            'Developing cross-platform mobile applications with Flutter, Dart, GetX and Provider for Android and iOS.'
     },
     {
         id: 2,
-        icon: 'MonitorSmartphone',
-        title: 'Responsive Design',
-        description: 'Designing fully responsive layouts that adapt seamlessly across desktops, tablets, and mobile devices.'
+        icon: 'Layout',
+        title: 'Web Development',
+        description:
+            'Building fast, responsive and modern web applications using Next.js, TypeScript and Tailwind CSS.'
     },
     {
         id: 3,
-        icon: 'Palette',
-        title: 'UI / UX Design',
-        description: 'Designing intuitive and visually appealing user experiences with a strong focus on usability, accessibility and consistency.'
+        icon: 'Database',
+        title: 'Backend & Database',
+        description:
+            'Building secure backend solutions with Python, Firebase, MongoDB, PostgreSQL and SQLite.'
     },
     {
         id: 4,
-        icon: 'Blocks',
-        title: 'Custom Components',
-        description: 'Creating reusable and scalable custom components to ensure maintainable code and consistent design systems.'
+        icon: 'PlugZap',
+        title: 'API Integration',
+        description:
+            'Integrating REST APIs and third-party services to build scalable and feature-rich applications.'
     },
     {
         id: 5,
-        icon: 'Gauge',
-        title: 'Performance Optimization',
-        description: 'Improving application speed and efficiency through optimized rendering, clean architecture, and best practices.'
+        icon: 'Palette',
+        title: 'UI / UX Design',
+        description:
+            'Designing clean, intuitive and user friendly interfaces with a focus on usability and consistency.'
     },
     {
         id: 6,
-        icon: 'Code2',
-        title: 'Code Review & Consulting',
-        description: 'Reviewing codebases, suggesting improvements, and providing technical guidance for scalable and high-quality applications.'
+        icon: 'Gauge',
+        title: 'Performance Optimization',
+        description:
+            'Optimizing applications for speed, responsiveness, maintainability and a better user experience.'
     }
 ];
