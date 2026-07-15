@@ -12,7 +12,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: 'Personal Portfolio Website',
+        title: 'Portfolio Website',
         description: 'A responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my projects, skills, and contact information with a modern and user friendly design.',
         image: '/images/projects/project2.png',
         category: 'Web Apps',
