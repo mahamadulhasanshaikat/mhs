@@ -113,6 +113,7 @@ const Projects = () => {
                         ))}
                     </div>
                 </FadeIn>
+               
                 {/* Projects Carousel */}
                 <FadeIn delay={200}>
                     <div className=" relative">
