@@ -42,7 +42,7 @@ const Journey = () => {
               onClick={() => setActiveTab("experience")}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 flex items-center gap-2 ${
                 activeTab === "experience"
-                  ? "bg-primary text-black"
+                  ? "bg-primary/80 text-black"
                   : "text-white/60 hover:text-white"
               }`}
             >
@@ -54,7 +54,7 @@ const Journey = () => {
               onClick={() => setActiveTab("education")}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 flex items-center gap-2 ${
                 activeTab === "education"
-                  ? "bg-primary text-black"
+                  ? "bg-primary/80 text-black"
                   : "text-white/60 hover:text-white"
               }`}
             >
@@ -78,7 +78,7 @@ const Journey = () => {
                   <div className="relative pl-20">
                    
                     {/* Circle Node */}
-                    <div className="absolute left-0 top-2 w-12 h-12 rounded-full bg-primary flex items-center justify-center border-4 border-black shadow-lg">
+                    <div className="absolute left-0 top-2 w-12 h-12 rounded-full bg-primary/90 flex items-center justify-center border-4 border-black shadow-lg">
                       <IconComponent className="w-5 h-5 text-black" />
                     </div>
 

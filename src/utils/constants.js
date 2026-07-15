@@ -1,15 +1,15 @@
 export const PERSONAL_INFO = {
     name: 'Mahamadul Hasan Shaikat',
-    title: 'Flutter | Next.js | Dart | Python | MongoBD | Firebase| Ex. Research Assistant',
+    title: 'Software Engineer | Flutter Developer | Next.js Developer | Python Developer | Firebase | MongoDB | Former Research Assistant',
     email: 'md.shaikat.dev@gmail.com',
     location: 'Bangladesh.',
-    tagline: 'Building scalable apps with clean code, modern UI, and intelligent solutions.',
+    tagline: 'Building scalable mobile and web applications with clean architecture, modern design and user focused innovation.',
     resume: '/resume.pdf',
     footag: 'MHS Tech Labs',
     bio: [
-        'I am a passionate Web and Mobile Application Developer with strong experience in designing and building modern, scalable applications. I enjoy transforming innovative ideas into functional, well designed digital products that prioritize performance, usability, and an excellent user experience.',
-        'My technical expertise includes Flutter, NextJS, Dart, Python, MongoBD and Firebase, supported by a solid foundation in backend development and database design. I follow best practices such as clean architecture, maintainable code structure, and efficient problem solving to develop reliable and high quality applications across both frontend and backend environments.',
-        'In addition to software development, I have practical experience in machine learning, data analysis, and research based projects. I am a continuous learner who actively explores emerging technologies and enjoys working on real world challenges to build meaningful and impactful digital solutions.'
+        'I am a Software Engineer specializing in cross-platform mobile and modern web application development. My focus is on delivering scalable, high performance and user centric digital products that combine clean architecture, intuitive design and maintainable code.',
+        'My expertise includes Flutter, Next.js, Dart, Python, Firebase, and MongoDB with hands-on experience in full-stack application development, API integration, database design, and cloud-based solutions. I am committed to writing clean, efficient, and production ready code while following modern software engineering best practices.',
+        'Beyond software development, I have experience as a Research Assistant, where I worked on machine learning, data analysis, and research driven projects. I enjoy solving complex real-world problems, continuously learning emerging technologies, and collaborating with teams to build innovative solutions that create measurable impact.'
     ]
 };
 

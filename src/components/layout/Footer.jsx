@@ -113,18 +113,22 @@ const Footer = () => {
         <FadeIn delay={300}>
           <div className="pt-8 border-t border-white/10">
             <div className=" flex flex-col md:flex-row items-center justify-between gap-4">
+            
               <p className="text-white/50 text-sm">
                 {new Date().getFullYear()} {PERSONAL_INFO.footag}. All &copy; rights reserved.
               </p>
+             
               <p className="flex flex-col items-start gap-1 text-white/50 text-sm">
                 <span className="flex items-center gap-2">
                   Built with <Heart className='w-4 h-4 text-red-600 fill-red-600 animate-pulse' /> using React & Tailwind CSS
                 </span>
+               
                 <span className=" text-primary/70 text-[10px] font-sans tracking-wide">
-                  Web App Version: {versionInfo.version} ({versionInfo.stage})
+                  {/* Web App Version: {versionInfo.version} ({versionInfo.stage}) */}
                 </span>
-                <span className="text-primary/70 font-sans text-[8px]">
-                Release Date: {versionInfo.releaseDate}
+               
+                <span className="flex items-center gap-2">
+                Release Date: {versionInfo.releaseDate} <Heart className='w-4 h-4 text-red-600 fill-red-600 animate-pulse' />
                   {/* Release Date: {new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })} */}
                 </span>
               </p>

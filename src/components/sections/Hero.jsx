@@ -35,7 +35,7 @@ const Hero = () => {
 
             <FadeIn delay={200}>
               <p className='text-lg text-white/70 max-w-150 mb-8'>
-                I love turning ideas into real, working applications. I build web and mobile projects using Flutter and Next.js. My focus is on creating smooth, scalable, and user friendly experiences. I enjoy solving challenging problems and bringing creative solutions to life.
+                I love turning ideas into real, working applications. I build mobile and web projects using Flutter and Next.js. My focus is on creating smooth, scalable, and user friendly experiences. I enjoy solving challenging problems and bringing creative solutions to life.
               </p>
             </FadeIn>
 

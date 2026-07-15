@@ -54,7 +54,7 @@ const Publications = () => {
                   <div className="relative pl-20">
                     
                     {/* Circle Node */}
-                    <div className={`absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center border-4 ${isEven ? ' bg-primary border-black' : 'bg-sky-500 border-black'} shadow-lg`}>
+                    <div className={`absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center border-4 ${isEven ? ' bg-primary/90 border-black' : 'bg-sky-500 border-black'} shadow-lg`}>
                       <Icons.BookOpen className="w-5 h-5 text-black" />
                     </div>
 
@@ -74,7 +74,7 @@ const Publications = () => {
                         href={pub.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block px-4 py-1.5 text-sm font-medium rounded-full bg-primary/20 border border-primary/40 text-primary hover:bg-primary/40 transition-colors"
+                        className="inline-block px-4 py-1.5 text-sm font-medium rounded-full bg-primary/20 border border-primary/40 text-primary hover:bg-primary/40 hover:text-white transition-colors"
                       >
                         View Publication
                       </a>
