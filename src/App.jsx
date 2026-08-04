@@ -11,6 +11,7 @@ import Footer from './components/layout/Footer'
 import { Analytics } from "@vercel/analytics/react"
 import Publications from './components/sections/Publication'
 import Journey from './components/sections/Journey'
+import PublishedApps from './components/sections/PublishedApps'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Skills />
         <Journey />
         <Projects />
+        <PublishedApps />
         <Publications />
         <Services />
         {/*  <Testimonials /> */}
