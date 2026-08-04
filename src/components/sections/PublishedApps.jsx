@@ -14,7 +14,7 @@ const PublishedApps = () => {
 
     return (
         <section
-            id="apps"
+            id="published-apps"
             className="relative py-24 bg-black overflow-hidden"
         >
             {/* Background */}

@@ -39,8 +39,8 @@ export const NAV_LINKS = [
     { id: 'skills', label: 'Skills' },
     { id: 'journey', label: 'Journey' },
     { id: 'projects', label: 'Projects' },
+    { id: 'published-apps', label: 'Published Apps' },
     { id: 'publications', label: 'Publications' },
-    { id: 'services', label: 'Services' },
     { id: 'contact', label: 'Contact' }
 
 ];
